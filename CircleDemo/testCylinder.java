@@ -1,4 +1,4 @@
-package Cylinder;
+package Circle;
 public class testCylinder {
 	public static void main(String[] args) {
 		Cylinder cy1 = new Cylinder();

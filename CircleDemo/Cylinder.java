@@ -34,9 +34,9 @@ public class Cylinder extends Circle {
 		this.height = height;
 	}
 
-	// public double getVolume() {
-	// 	return sugetArea() * height;
-	// }
+	public double getVolume() {
+		return super.getArea() * height;
+	}
 
 	public String toString() {
 		return "This is a Cylinder";
